@@ -31,3 +31,5 @@ ENV STD_CELL_LIBRARY_OPT=sky130_fd_sc_hd
 ENV PATH=$OPENLANE_ROOT:$OPENLANE_ROOT/scripts:$PATH
 RUN apt-get update && apt-get -yq install imagemagick libcairo2-dev tcllib tklib make g++ libreadline-dev python3-cairosvg python3 python3-numpy libblas-dev ngspice z3 tcl8.6-dev tk8.6-dev python3-scipy python3-matplotlib texlive-latex-recommended unzip glpk-utils libglpk-dev python3-pulp git wget gauche python3-toml python3-pytoml python3-pip mmv libglu1-mesa-dev libcurl4-gnutls-dev pdf2svg python3-yaml python3-cffi python3-pyparsing python3-certifi tcl magic libsqlite3-dev python3-setuptools python3-networkx python3-sympy
 RUN git clone https://github.com/thesourcerer8/StdCellLib
+RUN git clone https://codeberg.org/Sourcerer/lclayout
+RUN cd lclayout && ./install_develop.sh

@@ -52,8 +52,8 @@ micromamba install --yes -r /opt/conda -n silicon -c conda-forge \
 		      scrapbook[gcs] \
 		      google-cloud-aiplatform \
 		      cloudml-hypertune \
-		      PySpice \
-		      lclayout
+		      PySpice 
+#		      lclayout
 
 echo "DaisyStatus: adding profile hook"
 cp ${PROVISION_DIR}/profile.sh /etc/profile.d/silicon-design-profile.sh
