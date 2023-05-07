@@ -16,8 +16,8 @@
 timeout: 3600s
 substitutions:
   _ZONE: 'asia-northeast1-a'
-  _COMPUTE_IMAGE: 'silicon-design-ubuntu-2004'
-  _CONTAINER_IMAGE: 'silicon-design-ubuntu-2004'
+  _COMPUTE_IMAGE: 'libresilicon-design-ubuntu-2004'
+  _CONTAINER_IMAGE: 'libresilicon-design-ubuntu-2004'
   _NOTEBOOKS_BUCKET: 'silicon-design-notebooks'
   _COMPUTE_NETWORK: 'global/networks/default'
   _COMPUTE_SUBNET: ''

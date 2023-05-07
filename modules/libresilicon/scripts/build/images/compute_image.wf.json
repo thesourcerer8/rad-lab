@@ -9,7 +9,7 @@
     },
     "image_name": {
       "Description": "image name prefix",
-      "Value": "silicon-design-ubuntu-2004"
+      "Value": "libresilicon-design-ubuntu-2004"
     },
     "image_tag": {
       "Description": "image name suffix",
@@ -76,7 +76,7 @@
 	  }
 	}
       ],
-      "Timeout": "45m"
+      "Timeout": "220m"
     },
     "stop-instance": {
       "StopInstances": {
