@@ -132,7 +132,7 @@ variable "folder_id" {
 variable "image_name" {
   description = "Basename for for the compute and container image. {{UIMeta group=3 order=6 }}"
   type        = string
-  default     = "silicon-design-ubuntu-2004"
+  default     = "libresilicon-design-ubuntu-2004"
 }
 
 variable "ip_cidr_range" {
